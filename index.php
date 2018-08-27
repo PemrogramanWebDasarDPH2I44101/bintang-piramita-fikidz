@@ -1,4 +1,12 @@
 <?php
-//tuliskan loopingnya di sini
-// mencoba untuk edit file
+$x=5;
+do {
+	$y = $x;
+	do {
+		echo "*";
+		$y--;
+	} while ($y > 0);
+	$x--;
+	echo "<br>";
+} while ($x > 0);
 ?>
